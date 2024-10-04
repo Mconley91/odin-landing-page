@@ -1,2 +1,1 @@
-# odin-landing-page
-a project for TOP foundation's course
+This is a tutorial project required for The Odin Project. This website will be a "landing page".
