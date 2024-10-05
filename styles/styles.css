@@ -19,16 +19,36 @@ button{
     font-size: 18px;
     font-weight: bold;
 }
-h1{
+h1, h3{
     margin: 0px;
+    padding: 0px;
+}
+#top-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #1F2937;
+    height: 400px;
+    padding: 10px;
 }
 #header, #sub-header, #footer{
     display: flex;
     align-items: baseline;
     background-color: #1F2937;
-    justify-content: space-around;
     padding: 10px;
     font-size: 24px;
+    flex: 1;
+}
+#header, #sub-header{
+    flex-direction: column;
+    justify-content: space-around;
+    margin:0px 200px;
+}
+#header{
+    align-items: start;
+}
+#sub-header{
+    align-items: end;
 }
 #footer{
     justify-content: center;
@@ -38,4 +58,17 @@ h1{
     flex-direction: column;
     font-size: 18px;
     text-align: start;
+}
+#links{
+    display: flex;
+    gap: 30px;
+}
+#img-container{
+    display: flex;
+    border:solid black 1px;
+    background-color: grey;
+    width: 400px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
 }
