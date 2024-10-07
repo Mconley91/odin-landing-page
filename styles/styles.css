@@ -115,15 +115,18 @@ h1, h3{
 }
 #signup{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    text-align: center;
     margin: 40px auto;
-    padding: 40px 150px;
+    
     width: 800px;
     height: 100px;
 }
 #signup p{
     font-weight:100;
+    padding: 0px;
+    margin: 0px;
 }
 #signup-button{
     border: white 2px solid;
